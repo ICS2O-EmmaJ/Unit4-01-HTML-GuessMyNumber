@@ -4,26 +4,26 @@
     <meta charset="utf-8">
     <meta name="description" content="User Input, with JavaScript">
     <meta name="keywords" content="immaculata, ics2o">
-    <meta name="author" content="Ms Raffin">
+    <meta name="author" content="Emma Janani">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="apple-touch-icon" sizes="180x180" href="./fav/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./fav/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./fav/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav/fav_index-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav/fav_index-16x16.png">
     <link rel="manifest" href="./fav/site.webmanifest">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Area of a Trapezoid in JS</title>
+    <title>Guess My Number Game</title>
   </head>
   <body>
     <script src="./js/script.js"></script>
-    <h1>Greetings during the Day</h1>
+    <h1>Guess My Number Game</h1>
 		<table>
 			<tr>
 				<td>
-					<h3>Enter the hour of the day (h):</h3>
+					<h3>Guess a random number between 1 and 6:</h3>
 					<form action="javascript:displayGreeting()">						
-						<label for="hour">Hour (h):</label>
-						<input type="number" step="1" min="0" max="23" id="hour" placeholder="Enter hour (0-23)"><br><br>
-						<input type="submit" value="Display Greeting">
+						<label for="input">Number (1-6):</label>
+						<input type="number" step="1" min="1" max="6" id="number" placeholder="Guess number (1-6)"><br><br>
+						<input type="submit" value="Display Message">
 					</form>
 				</td>
 				<td>
@@ -35,7 +35,7 @@
 		<img src="./images/random_numbers.jpg" alt="Numbers" width="30%">
 		<!-- Create a space where the user information will be displayed -->
 		<div id="display-results">
-			<div id="greeting">
+			<div id="message">
 			</div>
 		</div>
   </body>
